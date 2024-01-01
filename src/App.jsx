@@ -35,6 +35,7 @@ function App() {
 function Message(props) {
   return (
     <p className="mt-6 text-gray-200">
+      {/* Error on line bellow */}
       You've read <strong>{props.count}</strong> pieces of advice
     </p>
   );
