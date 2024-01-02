@@ -11,7 +11,7 @@ function App() {
     setAdvice(data.slip.advice);
     setCount((e) => e + 1);
   }
-
+  // UseEffect hook to get an initial advice in teh first render
   useEffect(() => {
     getAdvice();
   }, []);
